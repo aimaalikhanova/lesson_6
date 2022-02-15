@@ -1,0 +1,114 @@
+@import "null.css";
+@font-face {
+	font-family: "Daimler CAC Regular";
+	src: url("../fonts/DaimlerCAC-Regular.woff2") format("woff2"), url("../fonts/DaimlerCAC-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SFUIDisplay Thin";
+	src: url("../fonts/SFUIDisplay-Thin.woff2") format("woff2"), url("../fonts/SFUIDisplay-Thin.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	background-color: #111111;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
+	font-family: "SFUIDisplay Thin", sans-serif;
+
+	text-align: justify;
+	color: #f8f8f8;
+}
+header {
+	margin: 30px 0 50px 0;
+}
+.logo {
+	margin-bottom: 30px;
+}
+.logo-item-1 {
+	width: 80px;
+	margin-right: 20px;
+}
+.logo-item-2 {
+	width: 250px;
+	padding: 28px 0 0 0;
+}
+.navigation a {
+	display: inline-block;
+	padding: 0 25px 0 0;
+}
+h1 {
+	font-family: "Daimler CAC Regular", Helvetica, Arial, sans-serif;
+	font-size: 44px;
+	text-shadow: 1.2px 1.2px 1.2px #aaaaaa;
+}
+.main-header {
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+h3 {
+	font-family: "Daimler CAC Regular", Helvetica, Arial, sans-serif;
+	font-size: 34px;
+	margin-bottom: 15px;
+}
+h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+h5 {
+	font-size: 24px;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+img {
+	width: 100%;
+	margin-bottom: 25px;
+}
+p {
+	margin-bottom: 10px;
+}
+.description-block-item {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	padding: 10px;
+}
+.block {
+	margin-bottom: 40px;
+}
+.description-block {
+	border: 2px dotted #f8f8f8;
+}
+.up {
+	width: 120px;
+	margin: 0 auto 40px;
+}
+.up-link {
+	font-size: 24px;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid #f8f8f8;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 5px #757575;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.footer-navigation-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	margin-bottom: 40px;
+}
